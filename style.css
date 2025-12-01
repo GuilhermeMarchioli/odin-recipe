@@ -23,8 +23,12 @@ header {
 }
 
 div#paralax {
-    background-attachment: fixed;
-    background: rgb(255, 145, 145) fixed;
+    height: 460px;
+    background: url(imgs/paralax-image.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 560px;
+}
+
+main {
+    width: 100%;
+    background-color: wheat;
 }
