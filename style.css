@@ -68,7 +68,7 @@ section {
     background-size: cover;
     padding: 25px;
     filter: grayscale(100%);
-    transition-duration: all 0.5s;
+    transition-duration: 1s;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
@@ -76,7 +76,10 @@ section {
     border-radius: 25px;
 }
 
-
+section:hover {
+    filter: grayscale(0%);
+    transform: scale(110%);
+}
 
 section h1 {
     font-size: 1.3em;
@@ -84,4 +87,8 @@ section h1 {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+section button {
+    
 }
