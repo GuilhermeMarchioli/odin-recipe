@@ -25,4 +25,19 @@
         div#links-container {
         flex-flow: row wrap;
         }
+
+        main#recipe {
+            width: 578px;
+            margin: auto;
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+
+        article#image {
+            border-radius: 20px 20px 0px 0px;
+        }
+
+        button {
+            border-radius: 0px 0px 20px 20px;
+        }
 }
